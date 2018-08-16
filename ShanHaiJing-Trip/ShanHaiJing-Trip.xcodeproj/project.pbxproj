@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040FAF4C21255BB000746C87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FAF4B21255BB000746C87 /* AppDelegate.m */; };
+		040FAF4F21255BB000746C87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FAF4E21255BB000746C87 /* ViewController.m */; };
+		040FAF5221255BB000746C87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040FAF5021255BB000746C87 /* Main.storyboard */; };
+		040FAF5421255BB200746C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040FAF5321255BB200746C87 /* Assets.xcassets */; };
+		040FAF5721255BB200746C87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040FAF5521255BB200746C87 /* LaunchScreen.storyboard */; };
+		040FAF5A21255BB200746C87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FAF5921255BB200746C87 /* main.m */; };
+		040FAF6421255BB200746C87 /* ShanHaiJing_TripTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FAF6321255BB200746C87 /* ShanHaiJing_TripTests.m */; };
+		040FAF6F21255BB200746C87 /* ShanHaiJing_TripUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FAF6E21255BB200746C87 /* ShanHaiJing_TripUITests.m */; };
+		5014C8F5FE7A7E9E706ED37E /* libPods-ShanHaiJing-Trip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F92BEDE0095FBDB706C46D9 /* libPods-ShanHaiJing-Trip.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		040FAF6021255BB200746C87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040FAF3F21255BB000746C87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040FAF4621255BB000746C87;
+			remoteInfo = "ShanHaiJing-Trip";
+		};
+		040FAF6B21255BB200746C87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040FAF3F21255BB000746C87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040FAF4621255BB000746C87;
+			remoteInfo = "ShanHaiJing-Trip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040FAF4721255BB000746C87 /* ShanHaiJing-Trip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShanHaiJing-Trip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040FAF4A21255BB000746C87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		040FAF4B21255BB000746C87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		040FAF4D21255BB000746C87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		040FAF4E21255BB000746C87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		040FAF5121255BB000746C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040FAF5321255BB200746C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040FAF5621255BB200746C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040FAF5821255BB200746C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040FAF5921255BB200746C87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040FAF5F21255BB200746C87 /* ShanHaiJing-TripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShanHaiJing-TripTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040FAF6321255BB200746C87 /* ShanHaiJing_TripTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShanHaiJing_TripTests.m; sourceTree = "<group>"; };
+		040FAF6521255BB200746C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040FAF6A21255BB200746C87 /* ShanHaiJing-TripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShanHaiJing-TripUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040FAF6E21255BB200746C87 /* ShanHaiJing_TripUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShanHaiJing_TripUITests.m; sourceTree = "<group>"; };
+		040FAF7021255BB200746C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F92BEDE0095FBDB706C46D9 /* libPods-ShanHaiJing-Trip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShanHaiJing-Trip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DFE4BC2DA7082E4812018A /* Pods-ShanHaiJing-Trip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanHaiJing-Trip.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShanHaiJing-Trip/Pods-ShanHaiJing-Trip.release.xcconfig"; sourceTree = "<group>"; };
+		F4324B4BA5AC9006E7B5BEE0 /* Pods-ShanHaiJing-Trip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanHaiJing-Trip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShanHaiJing-Trip/Pods-ShanHaiJing-Trip.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040FAF4421255BB000746C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5014C8F5FE7A7E9E706ED37E /* libPods-ShanHaiJing-Trip.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040FAF5C21255BB200746C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040FAF6721255BB200746C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040FAF3E21255BB000746C87 = {
+			isa = PBXGroup;
+			children = (
+				040FAF4921255BB000746C87 /* ShanHaiJing-Trip */,
+				040FAF6221255BB200746C87 /* ShanHaiJing-TripTests */,
+				040FAF6D21255BB200746C87 /* ShanHaiJing-TripUITests */,
+				040FAF4821255BB000746C87 /* Products */,
+				41229260EE8DEA35A42D3163 /* Pods */,
+				FD094FD1D3E19AA7DFA39F2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		040FAF4821255BB000746C87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040FAF4721255BB000746C87 /* ShanHaiJing-Trip.app */,
+				040FAF5F21255BB200746C87 /* ShanHaiJing-TripTests.xctest */,
+				040FAF6A21255BB200746C87 /* ShanHaiJing-TripUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040FAF4921255BB000746C87 /* ShanHaiJing-Trip */ = {
+			isa = PBXGroup;
+			children = (
+				040FAF7C21255D4400746C87 /* other */,
+				040FAF5021255BB000746C87 /* Main.storyboard */,
+				040FAF5321255BB200746C87 /* Assets.xcassets */,
+				040FAF5521255BB200746C87 /* LaunchScreen.storyboard */,
+				040FAF5821255BB200746C87 /* Info.plist */,
+				040FAF5921255BB200746C87 /* main.m */,
+			);
+			path = "ShanHaiJing-Trip";
+			sourceTree = "<group>";
+		};
+		040FAF6221255BB200746C87 /* ShanHaiJing-TripTests */ = {
+			isa = PBXGroup;
+			children = (
+				040FAF6321255BB200746C87 /* ShanHaiJing_TripTests.m */,
+				040FAF6521255BB200746C87 /* Info.plist */,
+			);
+			path = "ShanHaiJing-TripTests";
+			sourceTree = "<group>";
+		};
+		040FAF6D21255BB200746C87 /* ShanHaiJing-TripUITests */ = {
+			isa = PBXGroup;
+			children = (
+				040FAF6E21255BB200746C87 /* ShanHaiJing_TripUITests.m */,
+				040FAF7021255BB200746C87 /* Info.plist */,
+			);
+			path = "ShanHaiJing-TripUITests";
+			sourceTree = "<group>";
+		};
+		040FAF7C21255D4400746C87 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				040FAF4A21255BB000746C87 /* AppDelegate.h */,
+				040FAF4B21255BB000746C87 /* AppDelegate.m */,
+				040FAF4D21255BB000746C87 /* ViewController.h */,
+				040FAF4E21255BB000746C87 /* ViewController.m */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		41229260EE8DEA35A42D3163 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4324B4BA5AC9006E7B5BEE0 /* Pods-ShanHaiJing-Trip.debug.xcconfig */,
+				38DFE4BC2DA7082E4812018A /* Pods-ShanHaiJing-Trip.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD094FD1D3E19AA7DFA39F2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F92BEDE0095FBDB706C46D9 /* libPods-ShanHaiJing-Trip.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040FAF4621255BB000746C87 /* ShanHaiJing-Trip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040FAF7321255BB200746C87 /* Build configuration list for PBXNativeTarget "ShanHaiJing-Trip" */;
+			buildPhases = (
+				E23D01699C0F94F5D8F4F9C8 /* [CP] Check Pods Manifest.lock */,
+				040FAF4321255BB000746C87 /* Sources */,
+				040FAF4421255BB000746C87 /* Frameworks */,
+				040FAF4521255BB000746C87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShanHaiJing-Trip";
+			productName = "ShanHaiJing-Trip";
+			productReference = 040FAF4721255BB000746C87 /* ShanHaiJing-Trip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		040FAF5E21255BB200746C87 /* ShanHaiJing-TripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040FAF7621255BB200746C87 /* Build configuration list for PBXNativeTarget "ShanHaiJing-TripTests" */;
+			buildPhases = (
+				040FAF5B21255BB200746C87 /* Sources */,
+				040FAF5C21255BB200746C87 /* Frameworks */,
+				040FAF5D21255BB200746C87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040FAF6121255BB200746C87 /* PBXTargetDependency */,
+			);
+			name = "ShanHaiJing-TripTests";
+			productName = "ShanHaiJing-TripTests";
+			productReference = 040FAF5F21255BB200746C87 /* ShanHaiJing-TripTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		040FAF6921255BB200746C87 /* ShanHaiJing-TripUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040FAF7921255BB200746C87 /* Build configuration list for PBXNativeTarget "ShanHaiJing-TripUITests" */;
+			buildPhases = (
+				040FAF6621255BB200746C87 /* Sources */,
+				040FAF6721255BB200746C87 /* Frameworks */,
+				040FAF6821255BB200746C87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040FAF6C21255BB200746C87 /* PBXTargetDependency */,
+			);
+			name = "ShanHaiJing-TripUITests";
+			productName = "ShanHaiJing-TripUITests";
+			productReference = 040FAF6A21255BB200746C87 /* ShanHaiJing-TripUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040FAF3F21255BB000746C87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					040FAF4621255BB000746C87 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					040FAF5E21255BB200746C87 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 040FAF4621255BB000746C87;
+					};
+					040FAF6921255BB200746C87 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 040FAF4621255BB000746C87;
+					};
+				};
+			};
+			buildConfigurationList = 040FAF4221255BB000746C87 /* Build configuration list for PBXProject "ShanHaiJing-Trip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040FAF3E21255BB000746C87;
+			productRefGroup = 040FAF4821255BB000746C87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040FAF4621255BB000746C87 /* ShanHaiJing-Trip */,
+				040FAF5E21255BB200746C87 /* ShanHaiJing-TripTests */,
+				040FAF6921255BB200746C87 /* ShanHaiJing-TripUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040FAF4521255BB000746C87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040FAF5721255BB200746C87 /* LaunchScreen.storyboard in Resources */,
+				040FAF5421255BB200746C87 /* Assets.xcassets in Resources */,
+				040FAF5221255BB000746C87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040FAF5D21255BB200746C87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040FAF6821255BB200746C87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E23D01699C0F94F5D8F4F9C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShanHaiJing-Trip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040FAF4321255BB000746C87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040FAF4F21255BB000746C87 /* ViewController.m in Sources */,
+				040FAF5A21255BB200746C87 /* main.m in Sources */,
+				040FAF4C21255BB000746C87 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040FAF5B21255BB200746C87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040FAF6421255BB200746C87 /* ShanHaiJing_TripTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040FAF6621255BB200746C87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040FAF6F21255BB200746C87 /* ShanHaiJing_TripUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040FAF6121255BB200746C87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040FAF4621255BB000746C87 /* ShanHaiJing-Trip */;
+			targetProxy = 040FAF6021255BB200746C87 /* PBXContainerItemProxy */;
+		};
+		040FAF6C21255BB200746C87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040FAF4621255BB000746C87 /* ShanHaiJing-Trip */;
+			targetProxy = 040FAF6B21255BB200746C87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		040FAF5021255BB000746C87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040FAF5121255BB000746C87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040FAF5521255BB200746C87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040FAF5621255BB200746C87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040FAF7121255BB200746C87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		040FAF7221255BB200746C87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040FAF7421255BB200746C87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4324B4BA5AC9006E7B5BEE0 /* Pods-ShanHaiJing-Trip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ShanHaiJing-Trip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.audition.www.ShanHaiJing-Trip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		040FAF7521255BB200746C87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38DFE4BC2DA7082E4812018A /* Pods-ShanHaiJing-Trip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ShanHaiJing-Trip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.audition.www.ShanHaiJing-Trip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		040FAF7721255BB200746C87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ShanHaiJing-TripTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.audition.www.ShanHaiJing-TripTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShanHaiJing-Trip.app/ShanHaiJing-Trip";
+			};
+			name = Debug;
+		};
+		040FAF7821255BB200746C87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ShanHaiJing-TripTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.audition.www.ShanHaiJing-TripTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShanHaiJing-Trip.app/ShanHaiJing-Trip";
+			};
+			name = Release;
+		};
+		040FAF7A21255BB200746C87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ShanHaiJing-TripUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.audition.www.ShanHaiJing-TripUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ShanHaiJing-Trip";
+			};
+			name = Debug;
+		};
+		040FAF7B21255BB200746C87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ShanHaiJing-TripUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.audition.www.ShanHaiJing-TripUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ShanHaiJing-Trip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040FAF4221255BB000746C87 /* Build configuration list for PBXProject "ShanHaiJing-Trip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040FAF7121255BB200746C87 /* Debug */,
+				040FAF7221255BB200746C87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040FAF7321255BB200746C87 /* Build configuration list for PBXNativeTarget "ShanHaiJing-Trip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040FAF7421255BB200746C87 /* Debug */,
+				040FAF7521255BB200746C87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040FAF7621255BB200746C87 /* Build configuration list for PBXNativeTarget "ShanHaiJing-TripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040FAF7721255BB200746C87 /* Debug */,
+				040FAF7821255BB200746C87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040FAF7921255BB200746C87 /* Build configuration list for PBXNativeTarget "ShanHaiJing-TripUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040FAF7A21255BB200746C87 /* Debug */,
+				040FAF7B21255BB200746C87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040FAF3F21255BB000746C87 /* Project object */;
+}
