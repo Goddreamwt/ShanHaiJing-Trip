@@ -15,6 +15,10 @@
 		040FAF5A21255BB200746C87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FAF5921255BB200746C87 /* main.m */; };
 		040FAF6421255BB200746C87 /* ShanHaiJing_TripTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FAF6321255BB200746C87 /* ShanHaiJing_TripTests.m */; };
 		040FAF6F21255BB200746C87 /* ShanHaiJing_TripUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FAF6E21255BB200746C87 /* ShanHaiJing_TripUITests.m */; };
+		040FAF84212563B500746C87 /* WTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FAF83212563B500746C87 /* WTBaseViewController.m */; };
+		040FAF8B2125649300746C87 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FAF8A2125649300746C87 /* StartViewController.m */; };
+		040FAF902125700900746C87 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FAF8F2125700900746C87 /* UIView+Extension.m */; };
+		040FAF972125722500746C87 /* FishModelImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FAF962125722500746C87 /* FishModelImageView.m */; };
 		5014C8F5FE7A7E9E706ED37E /* libPods-ShanHaiJing-Trip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F92BEDE0095FBDB706C46D9 /* libPods-ShanHaiJing-Trip.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +56,15 @@
 		040FAF6A21255BB200746C87 /* ShanHaiJing-TripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShanHaiJing-TripUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		040FAF6E21255BB200746C87 /* ShanHaiJing_TripUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShanHaiJing_TripUITests.m; sourceTree = "<group>"; };
 		040FAF7021255BB200746C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040FAF82212563B500746C87 /* WTBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTBaseViewController.h; sourceTree = "<group>"; };
+		040FAF83212563B500746C87 /* WTBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTBaseViewController.m; sourceTree = "<group>"; };
+		040FAF892125649300746C87 /* StartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		040FAF8A2125649300746C87 /* StartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		040FAF8E2125700900746C87 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		040FAF8F2125700900746C87 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		040FAF952125722500746C87 /* FishModelImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FishModelImageView.h; sourceTree = "<group>"; };
+		040FAF962125722500746C87 /* FishModelImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FishModelImageView.m; sourceTree = "<group>"; };
+		040FAF98212573CC00746C87 /* GlobalDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalDefine.h; sourceTree = "<group>"; };
 		0F92BEDE0095FBDB706C46D9 /* libPods-ShanHaiJing-Trip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShanHaiJing-Trip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38DFE4BC2DA7082E4812018A /* Pods-ShanHaiJing-Trip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanHaiJing-Trip.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShanHaiJing-Trip/Pods-ShanHaiJing-Trip.release.xcconfig"; sourceTree = "<group>"; };
 		F4324B4BA5AC9006E7B5BEE0 /* Pods-ShanHaiJing-Trip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanHaiJing-Trip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShanHaiJing-Trip/Pods-ShanHaiJing-Trip.debug.xcconfig"; sourceTree = "<group>"; };
@@ -108,7 +121,9 @@
 		040FAF4921255BB000746C87 /* ShanHaiJing-Trip */ = {
 			isa = PBXGroup;
 			children = (
-				040FAF7C21255D4400746C87 /* other */,
+				040FAF812125639100746C87 /* Tool */,
+				040FAF7D212561D800746C87 /* Start */,
+				040FAF7C21255D4400746C87 /* Others */,
 				040FAF5021255BB000746C87 /* Main.storyboard */,
 				040FAF5321255BB200746C87 /* Assets.xcassets */,
 				040FAF5521255BB200746C87 /* LaunchScreen.storyboard */,
@@ -136,7 +151,7 @@
 			path = "ShanHaiJing-TripUITests";
 			sourceTree = "<group>";
 		};
-		040FAF7C21255D4400746C87 /* other */ = {
+		040FAF7C21255D4400746C87 /* Others */ = {
 			isa = PBXGroup;
 			children = (
 				040FAF4A21255BB000746C87 /* AppDelegate.h */,
@@ -144,7 +159,54 @@
 				040FAF4D21255BB000746C87 /* ViewController.h */,
 				040FAF4E21255BB000746C87 /* ViewController.m */,
 			);
-			path = other;
+			path = Others;
+			sourceTree = "<group>";
+		};
+		040FAF7D212561D800746C87 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				040FAF892125649300746C87 /* StartViewController.h */,
+				040FAF8A2125649300746C87 /* StartViewController.m */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		040FAF812125639100746C87 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				040FAF8C21256DE900746C87 /* Utils */,
+				040FAF912125719700746C87 /* AnimationView */,
+				040FAF85212563C600746C87 /* Controllers */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		040FAF85212563C600746C87 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				040FAF82212563B500746C87 /* WTBaseViewController.h */,
+				040FAF83212563B500746C87 /* WTBaseViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		040FAF8C21256DE900746C87 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				040FAF98212573CC00746C87 /* GlobalDefine.h */,
+				040FAF8E2125700900746C87 /* UIView+Extension.h */,
+				040FAF8F2125700900746C87 /* UIView+Extension.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		040FAF912125719700746C87 /* AnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				040FAF952125722500746C87 /* FishModelImageView.h */,
+				040FAF962125722500746C87 /* FishModelImageView.m */,
+			);
+			path = AnimationView;
 			sourceTree = "<group>";
 		};
 		41229260EE8DEA35A42D3163 /* Pods */ = {
@@ -316,7 +378,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040FAF902125700900746C87 /* UIView+Extension.m in Sources */,
+				040FAF84212563B500746C87 /* WTBaseViewController.m in Sources */,
 				040FAF4F21255BB000746C87 /* ViewController.m in Sources */,
+				040FAF972125722500746C87 /* FishModelImageView.m in Sources */,
+				040FAF8B2125649300746C87 /* StartViewController.m in Sources */,
 				040FAF5A21255BB200746C87 /* main.m in Sources */,
 				040FAF4C21255BB000746C87 /* AppDelegate.m in Sources */,
 			);
@@ -489,6 +555,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				COPY_HEADERS_RUN_UNIFDEF = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "ShanHaiJing-Trip/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -506,6 +575,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				COPY_HEADERS_RUN_UNIFDEF = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "ShanHaiJing-Trip/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
